@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: inline-block;
+    width: 1903px;
+    height: 90px;
+    background-color: rgb(89, 161, 185);
+}
+
+nav {
+    margin: 0 auto;
+    
+}
+.nav_wrapper {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 160px;
+}
+
+.name_logo {
+color: white;
+font-size: 40px;
+text-decoration: none;
+text-align: center;
+}
+
+.dname_logo {
+    display: inline-block;
+    padding-top: 18px;
+}
+
+.links {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    left: 400px;
+}
+
+li {
+    float: left;
+    text-decoration: none;
+    margin-right: 200px;
+    font-size: 25px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: whitesmoke;
+    width: 100px;
+    height: 100px;
+    display: inline-block; 
+}
+.active {
+    text-decoration: none;
+}
